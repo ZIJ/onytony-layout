@@ -1,0 +1,10 @@
+design
+.idea
+*~
+*.lock
+*.DS_Store
+*.swp
+*.out
+*.dll
+*.pdb
+*.exe
