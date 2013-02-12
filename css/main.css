@@ -223,12 +223,60 @@ h2 {
 }
 
 
-.carousel {
+.frame {
 	margin: 40px 0 40px 0;
 	display: inline-block;
 	width: 832px;
 	height: 653px;
 	background-image: url(../img/ipad.png);
+}
+
+.jcarousel {
+	position: relative;
+	overflow: hidden;
+	margin: 88px 0 0 80px;
+	width: 674px;
+	height: 490px;
+}
+
+.jcarousel ul {
+    width: 20000em;
+    position: absolute;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.jcarousel li {
+    float: left;
+}
+
+.carousel a {
+	display: inline-block;
+	position: relative;
+	top: -340px;
+	width: 31px;
+	height: 61px;
+	border: none;
+	background-image: url("../img/arrow.png");
+}
+
+.carousel a:hover {
+	border: none;
+}
+
+.carousel a.jcarousel-prev {
+	margin-right: 100px;
+}
+
+.carousel a.jcarousel-next {
+	margin-left: 100px;
+	-moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
 }
 
 footer {
