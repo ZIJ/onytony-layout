@@ -171,6 +171,7 @@ nav a:active {
 #main {
 	margin: 0 auto 0 auto;
 	width: 80%;
+	min-width: 1000px;
 	text-align: center;
 }
 
