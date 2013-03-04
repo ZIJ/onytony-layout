@@ -115,10 +115,10 @@ a {
 }
 
 a:hover {
-	color: #404040;
+	color: white;
 	text-decoration: none;
 	border-bottom: 1px dotted black;
-	background-color: #ffffde;
+	background-color: #e73527;
 }
 
 a:active {
@@ -203,13 +203,14 @@ h2 {
 	margin: 50px 0 10px 0;
 	padding: 0 10px 0 10px;
 	line-height: 70px; 
-	font-size: 55px;
+	font-size: 44px;
 	font-weight: normal;
-	background-color: #ffffde;
+	color: white;
+	background-color: #e73527;
 }
 
 .project p {
-	font-size: 22px;
+	font-size: 15px;
 }
 
 .project a {
